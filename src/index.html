@@ -15,11 +15,12 @@
       <label for="CountyN">Country:</label>
       <input type="text" name="CountyN" id="CountyN" required><p></p>
       <label for="zipNo">Zip:</label>
-      <input id="zipNo" name="zipNo" type="zipNo" pattern="[0-9]*" required><p></p>
+      <input id="zipNo" name="zipNo" type="zipNo" pattern="[0-9]*" minlength="5" required><p></p>
       <label for="pass">Password (8 characters minimum):</label>
-      <input type="password" id="pass" name="password" minlength="8" required></div>
+      <input type="password" id="pass" name="password" minlength="8" required></div><p></p>
       <label for="passCheck">Password (8 characters minimum):</label>
-      <input type="password" id="passCheck" name="password" minlength="8" required></div>
+      <input type="password" id="passCheck" name="password" minlength="8" required></div><p></p>
+      <button id="submitB" type="submit">Submit</button>
     </form>
   </div>
 </body>
